@@ -7,7 +7,7 @@ For Turn On Bypass Charging
 su
 echo 0 > /sys/class/power_supply/battery/charging_enabled
 ```
-For turn Off Bypass Charging
+For Turn Off Bypass Charging
 ```
 su
 echo 1 > /sys/class/power_supply/battery/charging_enabled
