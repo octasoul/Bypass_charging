@@ -2,12 +2,12 @@
 ------------
 Terminal with Root Access
 --
-For Turn On Bypass Charging 
+For Turn On Bypass Battery Charging 
 ```
 su
 echo 0 > /sys/class/power_supply/battery/charging_enabled
 ```
-For Turn Off Bypass Charging
+For Turn Off Bypass Battery Charging
 ```
 su
 echo 1 > /sys/class/power_supply/battery/charging_enabled
